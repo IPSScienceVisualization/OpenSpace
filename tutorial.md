@@ -69,11 +69,13 @@ vz.printArgs()
 
 ## Creating And Populating Directories
 
-In the code in this repository, there is a file called put_in_dirs.py. If you'd like the package to automatically create directories in the right path in Open Space and fill them with your asset, speck, and other files, then you just need to edit to follow these two steps:
+In the code in this repository, there is a file called put_in_dirs.py. If you'd like the package to automatically create directories in the right path in Open Space and fill them with your asset, speck, and other files, then you just need to follow these two steps:
 
-1. Open put_in_dirs.py and edit 'start_path_OS' to wherever Open Space is located on your machine. For example: 'C:/Users/your_name/Desktop/OpenSpace-0.12.0/'.
+1. Open put_in_dirs.py and edit 'start_path_OS' to Open Space's path on your machine. For example: 'C:/Users/your_name/Desktop/OpenSpace-0.12.0/'.
 
-2. Open files2ops and delete the '#' in front of the command 'put_in_dirs.moveFiles(file_name)'.
+2. Open files2ops and un-comment out (delete the '#') in front of the command 'put_in_dirs.moveFiles(file_name)'.
 
 Then, running either of the two modules above should automatically create and fill the Open Space directories. If you're having path issues, you can replace the variables in put_in_dirs that automatically scrape the paths with your machine's paths.
+
+This should allow you to use the package to visualize your catalog data! If you're still having issues, check out the example notebooks in this repository or feel free to email me at archie.kinnane@gmail.com.
 
