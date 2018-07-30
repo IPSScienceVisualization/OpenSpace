@@ -11,7 +11,9 @@ There are two file types needed to visualize catalog data in Open Space:
 
 This package will automatically create an asset and speck file for your catalog data. It can also create and populate the necessary Open Space directories with your asset and speck and a few other necessary non-varying files. Below, we'll walk through the two main ways this package can be used to get your datasets into OpenSpace.
 
-### 1. STARTING WITH AN ASTROPY TABLE
+## Using the Package
+
+### 1. Starting with an Astropy Table
 
 The first way you can use the package is if your data is in an astropy table. 
 ```
@@ -38,7 +40,7 @@ files2ops.printArgs()
 ```
 which  will return a list of createFiles's arguments. 
 
-### 2. Starting with a Vizier catalog ID
+### 2. Starting with a Vizier Catalog ID
 
 The package can also create asset and speck files straight from a Vizier catalog (http://vizier.u-strasbg.fr/viz-bin/VizieR).
 
@@ -63,3 +65,5 @@ Again, if you need a reminder of the module's arguments, you can run
 ```
 vz.printArgs()
 ```
+
+### 
