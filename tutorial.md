@@ -1,6 +1,6 @@
-# Using The Package
+# Tutorial
 
-This package can automatically create files that will allow you to visualize your datasets in OpenSpace.
+This package is used to automatically create the necessary files that will allow you to visualize your datasets in OpenSpace.
 
 ### File Types
 There are two file types needed to visualize catalog data in Open Space: 
