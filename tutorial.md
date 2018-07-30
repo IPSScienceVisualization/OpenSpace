@@ -65,5 +65,15 @@ Again, if you need a reminder of the module's arguments, you can run
 ```
 vz.printArgs()
 ```
+*Note: This code won't work with Python 2.7 or older, since it uses the command 'input', not 'raw_input' like older versions of Python. If you have an older Python version, just update it or replace every instance of 'input' with 'raw_input'.*
 
 ## Creating And Populating Directories
+
+In the code in this repository, there is a file called put_in_dirs.py. If you'd like the package to automatically create directories in the right path in Open Space and fill them with your asset, speck, and other files, then you just need to edit to follow these two steps:
+
+1. Open put_in_dirs.py and edit 'start_path_OS' to wherever Open Space is located on your machine. For example: 'C:/Users/your_name/Desktop/OpenSpace-0.12.0/'.
+
+2. Open files2ops and delete the '#' in front of the command 'put_in_dirs.moveFiles(file_name)'.
+
+Then, running either of the two modules above should automatically create and fill the Open Space directories. If you're having path issues, you can replace the variables in put_in_dirs that automatically scrape the paths with your machine's paths.
+
