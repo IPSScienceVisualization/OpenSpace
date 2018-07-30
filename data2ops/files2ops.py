@@ -8,6 +8,9 @@ def createFiles(Table, file_name, GUI_name = 'default', GUI_path = 'default', so
 	asset_creator.makeAsset(file_name, GUI_name, GUI_path)
 	speck_creator.makeSpeck(Table, file_name, source)
 	#put_in_dirs.moveFiles(file_name)
+	
+def printArgs():
+    print("createFiles(Table, file_name, GUI_name = 'default', GUI_path = 'default', source = 'default')")
 
 
 
