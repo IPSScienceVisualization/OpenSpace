@@ -13,4 +13,4 @@ This package will automatically create an asset and speck file for your catalog 
 
 ### 1. STARTING WITH AN ASTROPY TABLE
 
-The first way you can use the package is if your data is in an astropy table.
+The first way you can use the package is if your data is in an astropy table. Before calling the module,  you should make sure that the table only includes position columns (RA, Dec, and, if available, distance or redshift) and whatever parameters you want to be included in the speck file. It will automatically create a speck column for every additional column of your astropy table besides positional columns.
