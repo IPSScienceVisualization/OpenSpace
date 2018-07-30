@@ -25,3 +25,8 @@ Once you have your table, you should import the module files2ops from data2ops. 
 ```
 from data2ops import files2ops
 ```
+Then, you want to call the function createFiles.
+```
+files2ops.createFiles(Table, file_name, GUI_name = 'default', GUI_path = 'default', source = 'default')
+```
+You must give it two arguments: the name of your astropy table, and the desired name of your files. (file_name = 'test' will create test.asset and test.speck). You can also initialize it with GUI name, path, and data source. If you don't pass these arguments, then the program will ask for user input. 
