@@ -1,0 +1,2 @@
+There are two file types needed to visualize catalog data in Open Space: an asset file, which creates the object, 
+determines where in the GUI 
