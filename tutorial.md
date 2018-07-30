@@ -29,10 +29,11 @@ Then, you want to call the function createFiles.
 ```
 files2ops.createFiles(Table, file_name, GUI_name = 'default', GUI_path = 'default', source = 'default')
 ```
-You must give it two arguments: the name of your astropy table, and the desired name of your files. (file_name = 'test' will create test.asset and test.speck). You can also initialize it with GUI name, path, and data source. If you don't pass these arguments, then the program will ask for user input. GUI_path should be something like '/Universe/Galaxies'. 
+This will create an asset and speck file and save them in your current directory! You must give it two arguments: the name of your astropy table, and the desired name of your files. (file_name = 'test' will create test.asset and test.speck). You can also initialize it with GUI name, path, and data source. If you don't pass these arguments, then the program will ask for user input. GUI_path should be something like '/Universe/Galaxies'. 
 
 This can be a lot of arguments to remember, so you can also run
 
 ```
 files2ops.printArgs()
 ```
+which  will return a list of createFiles's arguments. 
