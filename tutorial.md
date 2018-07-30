@@ -52,4 +52,14 @@ And then you call the function OS_from_viz.
 ```
 vz.OS_from_viz(viz_ID, file_name, extraCols = ['default'], GUI_name = 'default', GUI_path = 'default', use_redshift = False)
 ```
-Again, this function has two necessary arguments and several optional arguments. **viz_ID** is, of course, the Vizier ID (something like 'VII/269/dr9q'), and **file_name** is again your desired name for your speck and asset files. **extraCols** is a list of any columns from the Vizier table BESIDES RA, Dec, and redshift or distance if available, that you would like to be included in your speck file. If no extraCols argument is passed, then it will prompt you for user input. If **use_redshift** is set to False, then if the program finds a redshift column but not a distance column, it will ask you if you'd like it to create a distance column from those redshifts. If you set it to True, then it will do so automatically.
+Again, this function has two necessary arguments and several optional arguments. **viz_ID** is, of course, the Vizier ID (something like 'VII/269/dr9q'), and **file_name** is again your desired name for your speck and asset files. 
+
+**extraCols** is a list of any columns from the Vizier table BESIDES RA, Dec, and redshift or distance if available, that you would like to be included in your speck file. If no extraCols argument is passed, then it will prompt you for user input. 
+
+If **use_redshift** is set to False, then if the program finds a redshift column but not a distance column, it will ask you if you'd like it to create a distance column from those redshifts. If you set it to True, then it will do so automatically.
+
+Again, if you need a reminder of the module's arguments, you can run
+
+```
+vz.printArgs()
+```
