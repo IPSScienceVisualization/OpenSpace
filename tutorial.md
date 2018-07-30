@@ -20,4 +20,8 @@ table_name = Table(your_data)
 ```
 Before calling the module,  you should make sure that the table only includes position columns (RA, Dec, and, if available, distance or redshift) and whatever parameters you want to be included in the speck file. It will automatically create a speck column for every additional column of your astropy table besides positional columns, so only leave the ones you want.
 
-Once you have your table.
+Once you have your table, you should import the module files2ops from data2ops. (If you're having path issues, an easy trick is to put the data2ops package in the same directory as something that you have no problem importing into python, like numpy.)
+
+```
+from data2ops import files2ops
+```
