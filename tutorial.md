@@ -2,7 +2,7 @@
 
 This package is used to automatically create the necessary files that will allow you to visualize your datasets in OpenSpace.
 
-#### File Types
+## Introduction
 There are two file types needed to visualize catalog data in Open Space: 
 
 (1) an **asset file**, which, among other things, creates the object -- in this case a Renderable Billboards Cloud -- determines where in the GUI the data goes, initializes several other parameters, and points to the data and texture (image) which will be used to display your set, AND
