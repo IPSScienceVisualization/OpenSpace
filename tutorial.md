@@ -65,7 +65,7 @@ Again, if you need a reminder of the module's arguments, you can run
 ```
 vz.printArgs()
 ```
-*Note: This code won't work with Python 2.7 or older, since it uses the command 'input', not 'raw_input' like older versions of Python. If you have an older Python version, just update it or replace every instance of 'input' with 'raw_input'.*
+*Note: This code won't work with Python 2.7 or older, since it uses the command 'input', not 'raw_input' like older versions of Python. If you have an older Python version and don't want to update, replace every instance of 'input' with 'raw_input'.*
 
 ## Creating And Populating Directories
 
