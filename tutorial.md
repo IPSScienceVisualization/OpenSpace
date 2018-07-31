@@ -44,7 +44,7 @@ which  will return a list of createFiles's arguments.
 
 The package can also create asset and speck files straight from a Vizier catalog (http://vizier.u-strasbg.fr/viz-bin/VizieR).
 
-*(Note: This requires the astroquery module to be installed on your machine to remotely access Vizier. If you don't have astroquery, follow these steps to download: https://astroquery.readthedocs.io/en/latest/)*
+*(Note: This requires the astroquery.vizier module to be installed on your machine to remotely access Vizier. If you don't have astroquery, it can be easily pip or conda installed: https://astroquery.readthedocs.io/en/latest/)*
 
 In this case, you import a module called viz2ops.
 
