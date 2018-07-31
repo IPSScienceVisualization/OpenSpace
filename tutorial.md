@@ -9,7 +9,7 @@ There are two file types needed to visualize catalog data in Open Space:
 
 (2) a **speck file**, which houses the actual information used to visualize your set. In a speck file, the first three columns must be x, y, and z positions, and then subsequent columns are used for any number of other parameters.
 
-This package will automatically create an asset and speck file for your catalog data. It can also create and populate the necessary Open Space directories with your asset and speck and a few other necessary non-varying files. Below, we'll walk through the two main ways this package can be used to get your datasets into OpenSpace.
+This package will automatically create an asset and speck file for your catalog data. With a small modification, it can also create and populate the necessary Open Space directories with your asset and speck and a few other necessary non-varying files. Below, we'll walk through the two main ways this package can be used to get your datasets into OpenSpace.
 
 ## Using the Package
 
