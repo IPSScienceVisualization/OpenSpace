@@ -25,7 +25,7 @@ def makeSpeck(Table, file_name, datasource = 'default'):
 	f.write(
     "# File created using data from " + datasource + "\r\n" +
     "# Adler Planetarium \r\n" +
-    "# Prepared on: " + today + "\r\n \r\n")
+    "# Prepared on: " + today + "\r\n")
 	for i in range(len(dataCols) - 3):
 		f.write(
 			"datavar %d "  %i + dataCols[i + 3].name + "\r\n"
@@ -104,9 +104,9 @@ def makeCoordsCol(TableName):
 def makeXYZcols():
 	global dataCols 
 	dataCols = [
-		Column(coordsCol.galactic.cartesian.x/(10e6*u.pc), name = 'x'), # x coord in Mpc, galactic frame
-		Column(coordsCol.galactic.cartesian.y/(10e6*u.pc), name = 'y'), # y coord in Mpc, galactic frame
-		Column(coordsCol.galactic.cartesian.z/(10e6*u.pc), name = 'z') # z coord in Mpc, galactic frame
+		Column(coordsCol.galactic.cartesian.x/(1e6*u.pc), name = 'x'), # x coord in Mpc, galactic frame
+		Column(coordsCol.galactic.cartesian.y/(1e6*u.pc), name = 'y'), # y coord in Mpc, galactic frame
+		Column(coordsCol.galactic.cartesian.z/(1e6*u.pc), name = 'z') # z coord in Mpc, galactic frame
     ] 
 		
 
